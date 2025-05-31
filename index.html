@@ -1,68 +1,380 @@
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta name="robots" content="noindex,nofollow">
-    <title>MUROMACHI Toshiki</title>
-  </head>
-  <body>
-	  <h1>MUROMACHI Toshiki</h1>
-	  <p>LINEヤフー株式会社 データグループ DS統括本部<br>室町俊貴</p>
-	  <p>
-		  <b>経歴</b><br>
-		  2017年 4月 静岡大学 情報学部 行動情報学科 入学<br>
-		  2021年 3月 静岡大学 情報学部 行動情報学科 卒業<br>
-		  2021年 4月 静岡大学 大学院 総合科学技術研究科 情報学専攻 入学<br>
-		  2023年 3月 静岡大学 大学院 総合科学技術研究科 情報学専攻 卒業<br>
-		  2023年 4月 ヤフー株式会社（現：LINEヤフー株式会社） 入社<br>
-	  </p>
-	  <p>
-		  <b>国内会議</b>
-		  <ul>
-			<li>室町俊貴, 狩野芳伸.<br>
-				対話履歴と言語・音響特徴を用いた相槌生成タイミングの予測.<br>
-				人工知能学会第33回全国大会 2021/6/11</li>
-			<li>室町俊貴, 狩野芳伸.<br>
-				生成モデルによる傾聴応答タイミングの推定と動的Prompt-Tuneを用いた応答スタイルのパラメーター制御.<br>
-				言語処理学会第29回年次大会 2023/3/16</li>
-		  </ul>
-	  </p>
-	  <p>
-		  <b>国際会議</b>
-		  <ul>
-			<li>Toshiki Muromachi, Yoshinobu Kano.<br>
-			    Estimation of Listening Response Timing by Generative Model and Parameter Control of Response Substantialness Using Dynamic-Prompt-Tune.<br>
-			    INTERSPEECH2023 2023/8/22</li>
-		  </ul>
-	  </p>
-	  <p>
-		  <b>資格</b>
-		  <ul>
-			<li>応用情報技術者試験(平成30年度秋期試験)</li>
-			<li>ITパスポート(2016年)</li>
-		  </ul>
-	  </p>
-	  <p>
-		  <b>インターン</b>
-		  <ul>
-			<li>ソフトバンク株式会社: ハッカソン web開発 AWS 7日間(2020年)</li>
-			<li>株式会社いい生活: web開発 Vue.js Firebase 5日間(2020年)</li>
-			<li>株式会社日本経済新聞社: web開発 データ活用 3日間(2020年)</li>
-			<li>株式会社サイバーエージェント: Kubernetes 7日間(2020年)</li>
-			<li>株式会社DATAFLUCT: データ基盤業務 データ分析業務 長期インターン 6ヶ月(2021年)</li>
-			<li>トヨタ自動車株式会社: CI/CD 就業型 2週間(2021年)</li>
-			<li>株式会社サイバーエージェント: MLOps 就業型 1ヶ月(2022年)</li>
-			<li>エルピクセル株式会社: 画像アノテーションシステム開発 長期インターン 6ヶ月(2022年)</li>
-		  </ul>
-	  </p>
-	  <p>
-		  <b>その他</b>
-		  <ul>
-			<li>Kaggle SIIM-ISIC Melanoma Classification 95/3437 Silver Solo(2020年)</li>
-			<li>Kaggle Shopee - Price Match Guarantee 219/2426 Bronze Team Leader(2021年)</li>
-			<li>Kaggle Competition Expert(2021年)</li>
-			<li>THK Data Science Competition 2021 優勝(※参加人数5人)(2021年)</li>
-		  </ul>
-	  </p>
-	  </p>
-  </body>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>山田太郎 - ポートフォリオ</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+			line-height: 1.6;
+			color: #333;
+			background-color: #fff;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		header {
+			text-align: center;
+			margin-bottom: 60px;
+			padding: 40px 0;
+			border-bottom: 1px solid #eee;
+		}
+
+		.profile-img {
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			background-color: #f0f0f0;
+			margin: 0 auto 20px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 48px;
+			color: #666;
+		}
+
+		h1 {
+			font-size: 2.2em;
+			margin-bottom: 10px;
+			font-weight: 300;
+		}
+
+		.tagline {
+			font-size: 1.1em;
+			color: #666;
+			margin-bottom: 20px;
+		}
+
+		.contact-info {
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
+
+		.contact-info a {
+			color: #0066cc;
+			text-decoration: none;
+			font-size: 0.9em;
+		}
+
+		.contact-info a:hover {
+			text-decoration: underline;
+		}
+
+		section {
+			margin-bottom: 50px;
+		}
+
+		h2 {
+			font-size: 1.5em;
+			margin-bottom: 20px;
+			color: #333;
+			border-left: 4px solid #0066cc;
+			padding-left: 15px;
+		}
+
+		.about-text {
+			font-size: 1em;
+			line-height: 1.8;
+			margin-bottom: 20px;
+		}
+
+		.skill {
+			margin-bottom: 25px;
+			padding: 20px 0;
+			border-bottom: 1px solid #eee;
+		}
+
+		.skill:last-child {
+			border-bottom: none;
+		}
+
+		.skill h3 {
+			font-size: 1.2em;
+			color: #333;
+			margin: 0 0 8px 0;
+		}
+
+		.skill-items {
+			color: #555;
+			font-size: 0.95em;
+		}
+
+		.project {
+			margin-bottom: 25px;
+			padding: 20px 0;
+			border-bottom: 1px solid #eee;
+		}
+
+		.project:last-child {
+			border-bottom: none;
+		}
+
+		.project-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			margin-bottom: 8px;
+			flex-wrap: wrap;
+		}
+
+		.project h3 {
+			font-size: 1.2em;
+			color: #333;
+			margin: 0;
+		}
+
+		.project-year {
+			font-size: 0.85em;
+			color: #666;
+		}
+
+		.project-description {
+			margin-bottom: 8px;
+			line-height: 1.7;
+			color: #555;
+		}
+
+		.project-links {
+			font-size: 0.9em;
+		}
+
+		.project-links a {
+			color: #0066cc;
+			text-decoration: none;
+			margin-right: 15px;
+		}
+
+		.project-links a:hover {
+			text-decoration: underline;
+		}
+
+		.experience-item {
+			margin-bottom: 25px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #eee;
+		}
+
+		.experience-item:last-child {
+			border-bottom: none;
+		}
+
+		.experience-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-bottom: 10px;
+			flex-wrap: wrap;
+		}
+
+		.job-title {
+			font-size: 1.1em;
+			font-weight: 600;
+			color: #333;
+		}
+
+		.company {
+			color: #666;
+			font-size: 0.9em;
+		}
+
+		.period {
+			color: #666;
+			font-size: 0.85em;
+		}
+
+		.experience-description {
+			margin-top: 10px;
+			line-height: 1.7;
+		}
+
+		footer {
+			text-align: center;
+			padding: 40px 0;
+			border-top: 1px solid #eee;
+			margin-top: 60px;
+			color: #666;
+			font-size: 0.9em;
+		}
+
+		@media (max-width: 600px) {
+			.container {
+				padding: 15px;
+			}
+
+			h1 {
+				font-size: 1.8em;
+			}
+
+			.contact-info {
+				flex-direction: column;
+				align-items: center;
+				gap: 10px;
+			}
+
+			.experience-header {
+				flex-direction: column;
+				align-items: flex-start;
+			}
+
+			.period {
+				margin-top: 5px;
+			}
+
+			.project-header {
+				flex-direction: column;
+				align-items: flex-start;
+			}
+
+			.project-year {
+				margin-top: 2px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<div class="profile-img">👤</div>
+			<h1>山田太郎</h1>
+			<p class="tagline">フロントエンドエンジニア</p>
+			<div class="contact-info">
+				<a href="mailto:yamada@example.com">yamada@example.com</a>
+				<a href="https://github.com/yamada-taro" target="_blank">GitHub</a>
+				<a href="https://twitter.com/yamada_taro" target="_blank">Twitter</a>
+				<a href="https://linkedin.com/in/yamada-taro" target="_blank">LinkedIn</a>
+			</div>
+		</header>
+
+		<section id="about">
+			<h2>About</h2>
+			<p class="about-text">
+				Webアプリケーション開発に3年間従事しており、主にReactとTypeScriptを使用したフロントエンド開発を行っています。
+				ユーザビリティを重視した設計と、保守性の高いコードの記述を心がけています。
+			</p>
+			<p class="about-text">
+				最近はNext.jsを使ったフルスタック開発や、モバイルアプリ開発にも興味を持って学習を進めています。
+				チーム開発での協力や、新しい技術への挑戦を大切にしています。
+			</p>
+		</section>
+
+		<section id="skills">
+			<h2>Skills</h2>
+
+			<div class="skill">
+				<h3>言語</h3>
+				<div class="skill-items">JavaScript, TypeScript, HTML/CSS, Python</div>
+			</div>
+
+			<div class="skill">
+				<h3>フレームワーク</h3>
+				<div class="skill-items">React, Next.js, Vue.js, Express.js</div>
+			</div>
+
+			<div class="skill">
+				<h3>ツール</h3>
+				<div class="skill-items">Git, Docker, Figma, Webpack</div>
+			</div>
+		</section>
+
+		<section id="projects">
+			<h2>Projects</h2>
+
+			<div class="project">
+				<div class="project-header">
+					<h3>タスク管理アプリ</h3>
+					<span class="project-year">2024年</span>
+				</div>
+				<div class="project-description">
+					React + TypeScriptで作成したシンプルなタスク管理アプリケーション。
+					ドラッグ&ドロップでのタスク移動や、カテゴリ別の管理機能を実装。
+				</div>
+				<div class="project-links">
+					<a href="#" target="_blank">Demo</a>
+					<a href="#" target="_blank">GitHub</a>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="project-header">
+					<h3>天気予報サイト</h3>
+					<span class="project-year">2023年</span>
+				</div>
+				<div class="project-description">
+					OpenWeather APIを使用した天気予報サイト。
+					位置情報の取得や、5日間の天気予報表示機能を実装。
+				</div>
+				<div class="project-links">
+					<a href="#" target="_blank">Demo</a>
+					<a href="#" target="_blank">GitHub</a>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="project-header">
+					<h3>ポートフォリオサイト</h3>
+					<span class="project-year">2024年</span>
+				</div>
+				<div class="project-description">
+					このサイト自体です。シンプルで読みやすいデザインを心がけ、
+					レスポンシブ対応とアクセシビリティに配慮して作成。
+				</div>
+				<div class="project-links">
+					<a href="#" target="_blank">GitHub</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience">
+			<h2>Experience</h2>
+
+			<div class="experience-item">
+				<div class="experience-header">
+					<div>
+						<div class="job-title">フロントエンドエンジニア</div>
+						<div class="company">株式会社サンプル</div>
+					</div>
+					<div class="period">2022年4月 - 現在</div>
+				</div>
+				<div class="experience-description">
+					Webアプリケーションのフロントエンド開発を担当。React + TypeScriptを使用した
+					SPA開発、UIコンポーネントの設計・実装、パフォーマンス最適化などを行っています。
+				</div>
+			</div>
+
+			<div class="experience-item">
+				<div class="experience-header">
+					<div>
+						<div class="job-title">ジュニアエンジニア</div>
+						<div class="company">フリーランス</div>
+					</div>
+					<div class="period">2021年6月 - 2022年3月</div>
+				</div>
+				<div class="experience-description">
+					小規模なWebサイト制作を中心に活動。HTML/CSS/JavaScriptを使用した
+					レスポンシブサイトの制作や、WordPressのカスタマイズを行いました。
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<p>&copy; 2024 山田太郎. All rights reserved.</p>
+		</footer>
+	</div>
+</body>
+
 </html>
